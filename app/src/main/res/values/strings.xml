@@ -18,6 +18,14 @@
         <item>Este mes</item>
         <item>Mes pasado </item>
     </string-array>
+    <string-array name="tipos_filtro">
+        <item>Todo</item>
+        <item>Hoy </item>
+        <item>Ayer</item>
+        <item>Esta semana</item>
+        <item>Este mes</item>
+        <item>Mes pasado </item>
+    </string-array>
 
     <string-array name="tipos_idiomas">
         <item>China - China</item>
