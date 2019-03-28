@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mActivitys.AddFABActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="25dp">
+
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="21dp"
+            android:text="Añadir Actividad:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/textTipoActividad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="63dp"
+            android:text="Tipo Actividad:"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <Spinner
+            android:id="@+id/spinnerTipoAct"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textTipoActividad"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_toEndOf="@+id/textTipoActividad"
+            android:layout_toRightOf="@+id/textTipoActividad"
+            android:entries="@array/array_tipos_nombre_actividades" />
+
+        <TextView
+            android:id="@+id/textNombreAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="103dp"
+            android:text="Nombre: "
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textNombreAct"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_toEndOf="@+id/textNombreAct"
+            android:layout_toRightOf="@+id/textNombreAct"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="149dp"
+            android:text="Descripcion:"
+            app:fontFamily="sans-serif-smallcaps" />/>
+
+        <EditText
+            android:id="@+id/editTextDescrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_toEndOf="@+id/textDescripcion"
+            android:layout_toRightOf="@+id/textDescripcion"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/textUbic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="201dp"
+            android:text="Tarea - Tiempo limite"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/textUbic5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="296dp"
+            android:text="Tarea - Programar"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/textViewTiempoLimite2"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="242dp"
+            android:text="Tiempo Limite:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewDesde"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="343dp"
+            android:text="Desde:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewHasta"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="397dp"
+            android:text="Hasta:"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextFechaLimite"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText4"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="-11dp"
+            android:clickable="true"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="31/12/2019,00:00" />
+
+        <EditText
+            android:id="@+id/editTextFechaFinAdd"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="383dp"
+            android:clickable="true"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:text="31/12/2019,00:00" />
+
+        <EditText
+            android:id="@+id/editTextFechaInicioAdd"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="161dp"
+            android:layout_marginLeft="161dp"
+            android:layout_marginTop="328dp"
+            android:clickable="true"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:maxLines="1"
+            android:text="31/12/2019,00:00"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="314dp" />
+
+        <Button
+            android:id="@+id/btnCrear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/switch2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="17dp"
+            android:text="Crear" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editTextFechaLimite"
+            android:layout_alignTop="@+id/btnCrear"
+            android:layout_marginStart="-106dp"
+            android:layout_marginTop="0dp"
+            android:text="Cancelar" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginTop="197dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_toEndOf="@+id/textUbic3"
+            android:layout_toRightOf="@+id/textUbic3" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textUbic5"
+            android:layout_alignEnd="@+id/editTextDescrip"
+            android:layout_marginStart="97dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="11dp"
+            android:layout_toEndOf="@+id/textUbic5"
+            android:layout_toRightOf="@+id/textUbic5" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

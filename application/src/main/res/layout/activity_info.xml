@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mActivitys.AddFABActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="30dp"
+            android:text="Informacion Actividad:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/textUbic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="221dp"
+            android:text="Tiempo Inicio:"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/textUbic4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="249dp"
+            android:text="Tiempo Final:"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/textTipoActividad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="99dp"
+            android:text="Tipo Actividad:"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/textUbic6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="281dp"
+            android:text="Duracion:"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/textNombreAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="127dp"
+            android:text="Nombre: "
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/textDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="158dp"
+            android:text="Descripcion:"
+            app:fontFamily="sans-serif-smallcaps" /><![CDATA[/>
+
+        ]]>
+
+        <TextView
+            android:id="@+id/textUbic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="190dp"
+            android:text="Ubicacion:"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/textUbic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="358dp"
+            android:text="Tarea - Tiempo limite"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/textUbic5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="401dp"
+            android:text="Tarea - Programar"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="52dp"
+            android:layout_height="17dp"
+            android:layout_alignTop="@+id/textUbic3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="52dp"
+            android:layout_height="17dp"
+            android:layout_alignTop="@+id/textUbic3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/switch4"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="107dp"
+            android:layout_marginBottom="26dp"
+            android:text="Volver" />
+
+        <TextView
+            android:id="@+id/tipoActividad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textTipoActividad"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="31dp"
+            android:layout_toEndOf="@+id/textUbic3" />
+
+        <TextView
+            android:id="@+id/tipoActividad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="100dp"
+            android:layout_toEndOf="@+id/textTipoActividad"
+            android:layout_toRightOf="@+id/textTipoActividad"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="158dp"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="126dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textDescripcion"
+            android:layout_alignEnd="@+id/tipoActividad"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/ubicacion"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tipoActividad"
+            android:layout_alignBottom="@+id/textUbic"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginEnd="-140dp"
+            android:layout_marginBottom="-1dp"
+            android:layout_toEndOf="@+id/textUbic"
+            android:layout_toRightOf="@+id/textUbic"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tiempoInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnVolver"
+            android:layout_alignTop="@+id/textUbic4"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-26dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tiempoFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textUbic4"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-1dp"
+            android:layout_toEndOf="@+id/textUbic5"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/duracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textNombreAct"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="157dp"
+            android:layout_marginEnd="172dp"
+            android:layout_marginRight="172dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

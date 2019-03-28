@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">TimeTracker</string>
+    <string name="texto_titulo_explorer">Proyectos raiz:</string>
+    <string name="texto_titulo_cronometro">Lista de tareas:</string>
+    <string name="texto_filtro_explorer">Filtrar:</string>
+
+
+    <string-array name="array_filtro_explorer">
+        <item>Todo</item>
+        <item>Hoy</item>
+        <item>Ayer</item>
+        <item>Esta semana</item>
+        <item>Este mes</item>
+        <item>Mes pasado</item>
+    </string-array>
+
+    <string-array name="array_tipos_nombre_actividades">
+        <item>Proyecto</item>
+        <item>Tarea</item>
+    </string-array>
+
+    <string-array name="array_ubicaciones">
+        <item>Primer proyecto</item>
+        <item>Gestio de Proyectes</item>
+        <item>Disseny del software</item>
+    </string-array>
+
+
+    //INFORME
+
+    <string-array name="tipos_informe">
+        <item>Breve</item>
+        <item>Detallado</item>
+    </string-array>
+    <string-array name="formatos_informe">
+        <item>PDF</item>
+        <item>Texto (txt)</item>
+        <item>HTML (Web)</item>
+    </string-array>
+    <string-array name="tipos_periode">
+        <item>Personalizado</item>
+        <item>Hoy </item>
+        <item>Ayer</item>
+        <item>Esta semana</item>
+        <item>Este mes</item>
+        <item>Mes pasado </item>
+    </string-array>
+    <string-array name="tipos_filtro">
+        <item>Todo</item>
+        <item>Hoy </item>
+        <item>Ayer</item>
+        <item>Esta semana</item>
+        <item>Este mes</item>
+        <item>Mes pasado </item>
+    </string-array>
+
+    <string-array name="tipos_idiomas">
+        <item>China - China</item>
+        <item>Español - España </item>
+        <item>Español - Latin</item>
+        <item>Ingles - UK</item>
+        <item>Ingles - USA</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

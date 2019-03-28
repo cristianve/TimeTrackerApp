@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="66dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textViewTituloCronometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/texto_titulo_cronometro"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:id="@+id/textViewFiltro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinnerFiltro"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:text="@string/texto_filtro_explorer"
+        android:textSize="14sp"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <Spinner
+        android:id="@+id/spinnerFiltro"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="2dp"
+        android:entries="@array/array_filtro_explorer" />
+
+    <ListView
+        android:id="@+id/listViewTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="397dp"
+        android:layout_below="@+id/textViewTituloExplorer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="49dp">
+
+    </ListView>
+
+</RelativeLayout>
